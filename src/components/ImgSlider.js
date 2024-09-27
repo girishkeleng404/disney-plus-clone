@@ -35,11 +35,12 @@ const ImgSlider = () => {
 export default ImgSlider;
 
 const Carsosal = styled(Slider)`
-  padding-top: 10px;
 
-  ul li button {
-    &:before {
-      font-size: 10px;
+padding-top: 10px;
+                ul li button {
+ 
+&:before {
+    font-size: 10px;
       color: rgb(150, 158, 171);
     }
   }
